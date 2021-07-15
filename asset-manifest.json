@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/http.//UtsavRaj21.github.io/PortFolio/static/css/main.c18d3d76.chunk.css",
+    "main.js": "/http.//UtsavRaj21.github.io/PortFolio/static/js/main.5e77009b.chunk.js",
+    "main.js.map": "/http.//UtsavRaj21.github.io/PortFolio/static/js/main.5e77009b.chunk.js.map",
+    "runtime-main.js": "/http.//UtsavRaj21.github.io/PortFolio/static/js/runtime-main.fa1abbe2.js",
+    "runtime-main.js.map": "/http.//UtsavRaj21.github.io/PortFolio/static/js/runtime-main.fa1abbe2.js.map",
+    "static/js/2.70d17593.chunk.js": "/http.//UtsavRaj21.github.io/PortFolio/static/js/2.70d17593.chunk.js",
+    "static/js/2.70d17593.chunk.js.map": "/http.//UtsavRaj21.github.io/PortFolio/static/js/2.70d17593.chunk.js.map",
+    "index.html": "/http.//UtsavRaj21.github.io/PortFolio/index.html",
+    "static/css/main.c18d3d76.chunk.css.map": "/http.//UtsavRaj21.github.io/PortFolio/static/css/main.c18d3d76.chunk.css.map",
+    "static/js/2.70d17593.chunk.js.LICENSE.txt": "/http.//UtsavRaj21.github.io/PortFolio/static/js/2.70d17593.chunk.js.LICENSE.txt",
+    "static/media/background.48c0b661.webp": "/http.//UtsavRaj21.github.io/PortFolio/static/media/background.48c0b661.webp",
+    "static/media/logow.5e2167bf.webp": "/http.//UtsavRaj21.github.io/PortFolio/static/media/logow.5e2167bf.webp",
+    "static/media/profile.148d929f.jpg": "/http.//UtsavRaj21.github.io/PortFolio/static/media/profile.148d929f.jpg",
+    "static/media/slide1.14619b04.webp": "/http.//UtsavRaj21.github.io/PortFolio/static/media/slide1.14619b04.webp",
+    "static/media/slide2.d58e7971.webp": "/http.//UtsavRaj21.github.io/PortFolio/static/media/slide2.d58e7971.webp",
+    "static/media/slide3.ea32b5ab.webp": "/http.//UtsavRaj21.github.io/PortFolio/static/media/slide3.ea32b5ab.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa1abbe2.js",
+    "static/js/2.70d17593.chunk.js",
+    "static/css/main.c18d3d76.chunk.css",
+    "static/js/main.5e77009b.chunk.js"
+  ]
+}
