@@ -1,0 +1,35 @@
+.title{
+    height: 40vh;
+    width: 40vw;
+    letter-spacing: 2px;
+    color:white;
+    position: absolute;
+    top:30vh;
+    left:30vw;
+    
+}
+
+.title-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 57px;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: bold; */
+    letter-spacing: 2px;
+}
+
+.title-name{
+    /* margin-top: 2vh; */
+    display: flex;
+    justify-content: center;
+    font-size: 77px;
+    /* font-weight: bold; */
+    letter-spacing: 2px;
+}
+
+.title-typeWriter{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+}
