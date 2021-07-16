@@ -32,6 +32,7 @@ function App() {
           </div>
         </Parallax>
       </div>
+      <Carousel/>
     </div>
   );
 }

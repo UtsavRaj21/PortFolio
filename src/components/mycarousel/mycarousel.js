@@ -9,7 +9,7 @@ const MyCarousel = () => {
     return (
 
         <div id="home">
-            <Carousel controls={false} indicators interval={3350} pause={false}>
+            <Carousel controls={false} indicators interval={3370} pause={false}>
                 <Carousel.Item>
                     <img className="d-block w-100 custom-img" src={Slide1} alt="First slide" />
                 </Carousel.Item>
