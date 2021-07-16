@@ -1,0 +1,17 @@
+.linkPep{
+    font-size: x-large;
+}
+
+.keySkill{
+    font-size: larger;
+}
+
+/* .buttonCerti{
+    display: flex;
+} */
+
+.inbuttonCerti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

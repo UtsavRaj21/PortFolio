@@ -8,6 +8,8 @@ import MyNavbar from "./components/myNavbar/myNavbar.js";
 import TitleMessage from './components/titleMessage/titleMessage';
 import MyAbout from './pages/myAbout/myAbout';
 import Background from '../src/assets/img/background/background.webp'
+import Skills from './pages/skills/skills';
+import Training from './pages/Training/training';
 
 
 function App() {
@@ -17,22 +19,33 @@ function App() {
       <Carousel/>
       <TitleMessage/>
       <div>
-        <Parallax
-          blur={{ min: -30, max: 30 }}
-          bgImage={Background}
-          bgImageAlt=""
-          strength={-200}
-        >
+        <Parallax blur={{ min: -30, max: 30 }} bgImage={Background} bgImageAlt=""strength={-200}>
           <div>
             <Container className="container-box rounded">
-              <Fade duration={1000}>
+              <Fade duration={3000}>
                 <MyAbout />
               </Fade>
             </Container>
           </div>
         </Parallax>
       </div>
-      <Carousel/>
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={3000}>
+            <Skills/>
+          </Fade>
+        </Container>
+      </div>
+      
+      <div>
+      <Parallax blur={{ min: -30, max: 30 }} bgImage={Background} bgImageAlt=""strength={-200}>
+        <Container className="container-box rounded">
+          <Fade duration={3000}>
+            <Training/>
+          </Fade>
+        </Container>
+        </Parallax>
+      </div>
     </div>
   );
 }

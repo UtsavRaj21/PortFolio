@@ -9,8 +9,8 @@ import Button from "react-bootstrap/Button";
 
 const MyAbout = () => {
     return (
-        <div id="about" className="about">
-            <h1 className="text-center pt-5 pb-3 font-details">About Me</h1>
+        <div id="about" className="pt-5 about">
+            <h1 className="text-center mt-5 pt-5 font-details">About Me</h1>
             <Container>
                 <Row className="pt-3 pb-5 align-items-center">
                     <Col xs={12} md={6}>
