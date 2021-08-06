@@ -65,6 +65,12 @@ export const skills ={
             skillName: "Redux",
           },
           {
+            link: "https://reactjs.org/docs/hooks-intro.html",
+            imgAltText: "React Hooks",
+            imgSrc:"https://kpiteng.com/assets/blogs/react/react-hooks.svg",
+            skillName: "React Hooks",
+          },
+          {
             link: "https://reacttraining.com/react-router/",
             imgAltText: "React Router",
             imgSrc: L_REACT_ROUTER,
