@@ -117,7 +117,7 @@ export const skills ={
         {
           link: "firebase.google.com",
           imgAltText: "Firebase",
-          imgSrc: Firebase,
+          imgSrc: "https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png",
           skillName: "Firebase",
         },
       ],
