@@ -10,16 +10,25 @@ import MyAbout from './pages/myAbout/myAbout';
 import Background from '../src/assets/img/background/background.webp'
 import Skills from './pages/skills/skills';
 import Training from './pages/Training/training';
+import ProjectsTimeline from './pages/projects/projects';
+import Contact from './pages/contact/contact';
+import FooterPanel from './components/Footer/footer';
 
-
+// import Particles from "react-particles-js";
+// import { particlesOptions } from "./particlesOptions.js";
 function App() {
   return (
     <div className="App">
-      <MyNavbar/>
-      <Carousel/>
-      <TitleMessage/>
+     
+      <Carousel />
+      <TitleMessage />
+      <MyNavbar />
+        {/* <Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      /> */}
       <div>
-        <Parallax blur={{ min: -30, max: 30 }} bgImage={Background} bgImageAlt=""strength={-200}>
+        <Parallax blur={{ min: -30, max: 30 }} bgImage={Background} bgImageAlt="" strength={-200}>
           <div>
             <Container className="container-box rounded">
               <Fade duration={3000}>
@@ -32,20 +41,40 @@ function App() {
       <div>
         <Container className="container-box rounded">
           <Fade duration={3000}>
-            <Skills/>
+            <Skills />
           </Fade>
         </Container>
       </div>
-      
+
       <div>
-      <Parallax blur={{ min: -30, max: 30 }} bgImage={Background} bgImageAlt=""strength={-200}>
-        <Container className="container-box rounded">
-          <Fade duration={3000}>
-            <Training/>
-          </Fade>
-        </Container>
+        <Parallax blur={{ min: -30, max: 30 }} bgImage={Background} bgImageAlt="" strength={-200}>
+          <Container className="container-box rounded">
+            <Fade duration={3000}>
+              <Training />
+            </Fade>
+          </Container>
         </Parallax>
       </div>
+
+      <div>
+          <Container className="container-box rounded">
+            <Fade duration={3000}>
+              <ProjectsTimeline />
+            </Fade>
+          </Container>
+      </div>
+
+      <div>
+          <Container className="container-box rounded">
+            <Fade duration={3000}>
+            <hr />
+              <Contact />
+            </Fade>
+          </Container>
+      </div>
+
+      <hr />
+      <FooterPanel />
     </div>
   );
 }

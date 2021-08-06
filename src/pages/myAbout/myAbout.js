@@ -54,7 +54,7 @@ const MyAbout = () => {
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="https://www.linkedin.com/in/utsav-raj-srivastava-4531621ba" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/utsav-raj-4531621ba" target="_blank" rel="noopener noreferrer">
                                     <Button className="m-2" variant="outline-info">
                                         LinkedIn
                                     </Button>
