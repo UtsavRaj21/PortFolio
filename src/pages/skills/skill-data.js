@@ -17,6 +17,7 @@ import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import L_MSSQL from "../../assets/img/skills/mssql.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
+import L_Firebase from "../../assets/img/skills/firebase.svg";
 import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
@@ -112,6 +113,12 @@ export const skills ={
           imgAltText: "GitHub Pages",
           imgSrc: L_GITHUB_PAGES,
           skillName: "GitHub Pages",
+        },
+        {
+          link: "firebase.google.com",
+          imgAltText: "Firebase",
+          imgSrc: Firebase,
+          skillName: "Firebase",
         },
       ],
       programmingLanguages: [
