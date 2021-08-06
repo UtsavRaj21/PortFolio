@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PortFolio/static/css/main.12eb13b4.chunk.css",
-    "main.js": "/PortFolio/static/js/main.893c0d0d.chunk.js",
-    "main.js.map": "/PortFolio/static/js/main.893c0d0d.chunk.js.map",
+    "main.js": "/PortFolio/static/js/main.236dccac.chunk.js",
+    "main.js.map": "/PortFolio/static/js/main.236dccac.chunk.js.map",
     "runtime-main.js": "/PortFolio/static/js/runtime-main.2bdfe97d.js",
     "runtime-main.js.map": "/PortFolio/static/js/runtime-main.2bdfe97d.js.map",
     "static/js/2.76d0b0f0.chunk.js": "/PortFolio/static/js/2.76d0b0f0.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/digital-ocean.744a6973.svg": "/PortFolio/static/media/digital-ocean.744a6973.svg",
     "static/media/django.0779fca2.svg": "/PortFolio/static/media/django.0779fca2.svg",
     "static/media/express.75fff9be.svg": "/PortFolio/static/media/express.75fff9be.svg",
+    "static/media/firebase.31ac7929.svg": "/PortFolio/static/media/firebase.31ac7929.svg",
     "static/media/flask.611b5611.svg": "/PortFolio/static/media/flask.611b5611.svg",
     "static/media/git-icon.c60b7e5a.svg": "/PortFolio/static/media/git-icon.c60b7e5a.svg",
     "static/media/github-api.3a5ccf39.svg": "/PortFolio/static/media/github-api.3a5ccf39.svg",
@@ -51,6 +52,6 @@
     "static/js/runtime-main.2bdfe97d.js",
     "static/js/2.76d0b0f0.chunk.js",
     "static/css/main.12eb13b4.chunk.css",
-    "static/js/main.893c0d0d.chunk.js"
+    "static/js/main.236dccac.chunk.js"
   ]
 }
