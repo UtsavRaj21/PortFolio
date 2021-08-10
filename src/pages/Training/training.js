@@ -32,12 +32,12 @@ const Training = () => {
                             <Card.Text>
                                 <span className="keySkill">➢	Key Skills : Java.</span>
                                 <br></br>
-                                 Each week we would cover around 50 questions from different topics such as
+                                 Each week we would cover around 30 questions from different topics such as
                                  LinkedList, Stack & Queues, HashMap, Heap, Arrays & Strings, Dynamic Programming,
                                  Greedy, Trees, Graph, Searching and Sorting, Text Processing and many more.
                                  <br></br>
                             </Card.Text>
-                            <Col className="d-flex justify-content-center flex-wrap">
+                            {/* <Col className="d-flex justify-content-center flex-wrap">
                                 <div >
                                     <a href="https://drive.google.com/file/d/1TanDvQf18IBTza1k0PLymFOXx2MQNKOX/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                         <Button className="m-2" variant="outline-primary" >
@@ -45,7 +45,7 @@ const Training = () => {
                                     </Button>
                                     </a>
                                 </div>
-                            </Col>
+                            </Col> */}
                         </Card.Body>
                     </Card>
                 </Col>
@@ -70,12 +70,11 @@ const Training = () => {
                             <Card.Text>
                                 <span className="keySkill mt-5 mb-5">➢	Key skills : Html5, CSS, JavaScript, JQuery, Web Scraping, ReactJS.</span>
                                 <br></br>
-                                 Each week we would cover around 50 questions from different topics such as
-                                 LinkedList, Stack & Queues, HashMap, Heap, Arrays & Strings, Dynamic Programming,
-                                 Greedy, Trees, Graph, Searching and Sorting, Text Processing and many more.
+                                I made more than 10 projects during the training. Using all the different skills. I learned mern stack.It helped me lot in learning and developing a site.
+
                                  <br></br>
                             </Card.Text>
-                            <Col className="d-flex justify-content-center flex-wrap">
+                            {/* <Col className="d-flex justify-content-center flex-wrap">
                                 <div >
                                     <a href="https://drive.google.com/file/d/1TanDvQf18IBTza1k0PLymFOXx2MQNKOX/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                         <Button className="m-2" variant="outline-primary">
@@ -83,7 +82,7 @@ const Training = () => {
                                     </Button>
                                     </a>
                                 </div>
-                            </Col>
+                            </Col> */}
                         </Card.Body>
                     </Card>
                 </Col>

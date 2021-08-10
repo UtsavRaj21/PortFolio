@@ -21,13 +21,17 @@ const MyAbout = () => {
                     <Col xs={12} md={6}>
                         <Row className=" align-items-start p-2 my-details rounded">
                             Hi there! I am <strong>&nbsp;Utsav Raj</strong>
-                            <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
                             <br />
-                            In 2019, I successfully completed my Engineering with specialization in 'Electronics and Telecommunication'.
+                            I’m a passionate software developer seeking a beginner role to enhance and explore my technical knowledge.
+                            <br /> I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
+                            <br />
+                            In 2022, I will successfully complete my Engineering .
+                            
                             <br />
                             Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
-                            <br />
-                            Along with that, I also help people as a COACH on their journey of becoming a professional programmer.
+                            
+                            
+                            <br/>I have flexibity to adapt to any working environment. I work hard and want to use my skills to help company develop and work for mankind.
                             <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
                             <br /> <br />
 

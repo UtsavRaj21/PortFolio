@@ -8,6 +8,7 @@ import './projects.css'
 import Music from '../../assets/img/projects/music.png';
 import Netflix from '../../assets/img/projects/netflix.png';
 import Automation from '../../assets/img/projects/automation.png';
+import Excel from '../../assets/img/projects/excel.png';
 
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
@@ -34,9 +35,112 @@ const ProjectsTimeline = () => {
             <h1 className=" pt-5 text-center pb-4 font-details-b">Projects</h1>
             <Timeline>
                 <Events>
+
+                <ImageEvent
+                        date="16/07/2021"
+                        className="text-center"
+                        text="Excel Clone"
+                        src={Excel}
+                        alt="Excel Clone"
+                    >
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion>
+                                    <Card>
+                                        <Accordion.Toggle
+                                            as={Card.Header}
+                                            eventKey="0"
+                                            className="p-2 text-center accordian-main"
+                                        >
+                                            PROJECT DETAILS
+                                        </Accordion.Toggle>
+
+                                        <Accordion.Collapse eventKey="0" className="text-left">
+                                            <Card.Body>
+                                                <strong>Description:</strong> This is Excel Clone
+                        <hr />
+                                                <strong>Features:</strong>
+                                                <ul className="list-styles pt-1">
+                                                    <li>We have formating section i.e fill color,can change text color,change alignment ,cut ,copy,paste.</li>
+                                                    <li>We also can add/rename/delete sheet.</li>
+                                                    <li>Also we can save our file and reopen the saved one.</li>
+                                                
+                                                </ul>
+                                                <hr />
+                                                <strong>Tech used:</strong>
+                                                <ul>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_HTML5}
+                                                                alt="HTML 5"
+                                                                rounded
+                                                                className="image-style m-1"
+                                                            ></Image>{" "}
+                                                        HTML5
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_CSS3}
+                                                                alt="CSS 3"
+                                                                rounded
+                                                                className="image-style m-1"
+                                                            ></Image>{" "}
+                                                        CSS3
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_JavaScript}
+                                                                alt="Javascript"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                            JavaScript
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_LocalStorage}
+                                                                alt="LocalStorage"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                            LocalStorage
+                                                        </span>
+                                                    </li>
+
+
+                                                </ul>
+                                            </Card.Body>
+                                        </Accordion.Collapse>
+                                    </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                                <UrlButton
+                                    href="https://github.com/UtsavRaj21/Excel-Clone"
+                                    target="_blank"
+                                >
+                                    SOURCE CODE
+                                </UrlButton>
+                                <UrlButton
+                                    href="https://www.linkedin.com/posts/utsav-raj-4531621ba_connections-html-css-activity-6830882718952366080-afvN"
+                                    target="_blank"
+                                >
+                                    WATCH VIDEO
+                                </UrlButton>
+                            </div>
+                        </div>
+                    </ImageEvent>
+
                     {/* Project 1 Music App */}
                     <ImageEvent
-                        date="01/10/2020"
+                        date="05/06/2021"
                         className="text-center"
                         text="Music App"
                         src={Music}
@@ -119,7 +223,7 @@ const ProjectsTimeline = () => {
                                     SOURCE CODE
                 </UrlButton>
                                 <UrlButton
-                                    href="https://www.linkedin.com/posts/utsav-raj-srivastava-4531621ba_connections-javascript-css-activity-6804102360147857408-GQBf"
+                                    href="https://www.linkedin.com/posts/utsav-raj-4531621ba_connections-javascript-css-activity-6804102360147857408-TbWX"
                                     target="_blank"
                                 >
                                     WATCH VIDEO
@@ -131,7 +235,7 @@ const ProjectsTimeline = () => {
                     {/* 2nd Project */}
 
                     <ImageEvent
-                        date="16/09/2020"
+                        date="06/05/2020"
                         className="text-center"
                         text="Netflix Clone"
                         src={Netflix}
@@ -224,7 +328,7 @@ const ProjectsTimeline = () => {
                                     SOURCE CODE
                                 </UrlButton>
                                 <UrlButton
-                                    href="https://www.linkedin.com/posts/utsav-raj-srivastava-4531621ba_connections-hackathon-pepcoding-activity-6811203877245898752-oyU1"
+                                    href="https://www.linkedin.com/posts/utsav-raj-4531621ba_connections-hackathon-pepcoding-activity-6788129213988814848-0Lni"
                                     target="_blank"
                                 >
                                     WATCH VIDEO
@@ -235,7 +339,7 @@ const ProjectsTimeline = () => {
 
                     {/* 3rd Project */}
                     <ImageEvent
-                        date="01/10/2020"
+                        date="01/04/2021"
                         className="text-center"
                         text="Automation Project"
                         src={Automation}
@@ -293,7 +397,7 @@ const ProjectsTimeline = () => {
                                     SOURCE CODE
                 </UrlButton>
                                 <UrlButton
-                                    href="https://www.linkedin.com/posts/utsav-raj-srivastava-4531621ba_connections-hackathon-pepcoding-activity-6788129213988814848-o642"
+                                    href="https://www.linkedin.com/posts/utsav-raj-4531621ba_connections-hackathon-pepcoding-activity-6788129213988814848-0Lni"
                                     target="_blank"
                                 >
                                     WATCH VIDEO
